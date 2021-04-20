@@ -107,6 +107,7 @@ EOF
 
 
 # Create namespaces
+```
 kubectl create ns app1
 kubectl create ns app2
 kubectl create ns app3
@@ -120,7 +121,7 @@ kubectl create ns app5
 
 kubectl label ns app4 team=red
 kubectl label ns app5 team=red
-
+```
 
 # Run tests
 Developer can create deployment 
