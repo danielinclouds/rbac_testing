@@ -22,6 +22,9 @@ Red team namespaces:
 
 
 # Prerequisites
+Create cluster
+kind create cluster
+
 Install rbac-manager
 ```sh
 helm repo add fairwinds-stable https://charts.fairwinds.com/stable
