@@ -9,6 +9,7 @@ A cluster is shared by 2 teams: red and blue.
 Blue team members:
  - dave@gmail.com
  - joe@gmail.com
+
 Red team members:
  - mike@gmail.com
 
@@ -16,7 +17,8 @@ Blue team namespaces:
  - app1
  - app2
  - app3
-Red team namespaces:
+
+Red team namespaces:  
  - app4
  - app5
 
