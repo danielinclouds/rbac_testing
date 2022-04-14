@@ -162,6 +162,12 @@ kubectl auth can-i create redis -n app1 --as=dave@gmail.com
 # yes
 ```
 
+Service account `default` from default namespace can't create pods in kube-system namespace
+```sh
+kubectl auth can-i create pods -n kube-system --as=system:serviceaccount:default:developer
+# no
+```
+
 
 # Run go tests
 ```sh
